@@ -1,8 +1,8 @@
-import Dashboard from "./dashboard/dashboard";
+import Dashboard from "./dashboard";
 import DashboardLayout from "@/components/DashboardLayout";
 import ProtectedRoute from "@/components/ProtectedRoute";
 
-export default function Home() {
+export default function DashboardPage() {
   return (
     <ProtectedRoute>
       <DashboardLayout>
